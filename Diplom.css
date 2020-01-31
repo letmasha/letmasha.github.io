@@ -1,0 +1,169 @@
+.container {
+    max-width: 1079px;
+}
+header {
+    padding-top: 17px;
+}
+.logo {
+    width: 199px;
+    height: 61px;
+}
+.nav-link {
+    color: black;
+    font: 14px Arial;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: #72cbe7;
+}
+.btn-primary {
+    background: #009ccc;
+    color: white;
+    font: 14px Arial;
+    line-height: 18px;
+    text-transform: uppercase;
+    border-color: #009ccc;
+    font-weight: 400;
+    
+}
+h1 {
+    font: 400 24px Arial;
+    font-weight: 400;
+    line-height: 24px;
+    color: #231f20;
+    text-transform: uppercase;
+    
+}
+.Promo_text p{
+    font: 14px Arial;
+    line-height: 18px;
+    color: #231f20;
+    font-weight: 400;
+    padding-right: 23px;
+}
+
+.Promo_text .btn-outline-primary {
+    border-color: #009ccc;
+    color: #009ccc;
+    
+    text-transform: uppercase;
+    font: 14px Arial;
+    line-height: 18px;
+    font-weight: 400;
+}
+.Promo_text .btn-outline-primary:hover {
+    color: white;
+}
+.Promo_text {
+    padding-left: 0;
+    padding-top: 30px;
+}
+
+.Promo_img {
+    padding-right: 0;
+}
+.Icon_Section {
+    background-color: rgb(243, 240, 240);
+    margin-top: 20px;
+}
+.icon_img {
+    height: 120px;
+    padding-top: 30px;
+}
+.Icon_Section .icon {
+    border-left: 1px solid white;
+}
+.Icon_Section .row .icon:last-child {
+    border-right: 1px solid white;
+}
+.Icon_Section p {
+    font: 14px Arial;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Directions a{
+    font: 30px Arial;
+    line-height: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Directions a:hover {
+    cursor: pointer;
+    font: 40px Arial;
+    text-decoration: none;
+}
+div.card-img-overlay:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.Reviews {
+    background-color: rgb(243, 240, 240);
+}
+.Reviews h2 {
+    font: 30px Arial;
+    line-height: 30px;
+    color: #231f20;
+    font-weight: 700;
+}
+.Reviews p {
+    font: 14px Arial;
+    font-weight: 400;
+}
+.Reviews span {
+    font-weight: 700;
+}
+.Reviews .btn-primary {
+    background: #00afe5;
+    font: 14px Arial;
+    font-weight: 400;
+}
+.Reviews button:hover {
+    background-color: #5e57c9;
+}
+.Documents h2 {
+    font: 30px Arial;
+    line-height: 30px;
+    color: #009ccc;
+    font-weight: 400;
+}
+.Documents p {
+    font: 14px Arial;
+    line-height: 18px;
+    color: #252122;
+    font-weight: 400;
+}
+footer p {
+    font: 14px Arial;
+    line-height: 18px;
+    font-weight: 400;
+}
+footer {
+    background-color: rgb(243, 240, 240);
+}
+.bg {
+    background-image: url(bg_promo.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+    position: relative;
+    background-position: left;
+}
+@media (max-width: 601px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 602px) {
+    header .container {
+        align-items: center;
+    }
+}
